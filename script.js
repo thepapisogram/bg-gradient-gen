@@ -17,7 +17,7 @@ const changeColor = (tochange, val) => {
 }
 
 let color1 = document.getElementById('color1'), color2 = document.getElementById('color2');
-color1.onchange = function(event){
+color1.onchange = function (event) {
     let val = event.target.value;
     c1.innerHTML = val;
     changeColor('color1_var', val);
